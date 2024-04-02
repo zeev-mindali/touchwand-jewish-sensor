@@ -1,0 +1,34 @@
+{
+  "name": "touchwand-jewish-sensors",
+  "displayName": "Homebridge Jewish Calendar Virtual Sensors",
+  "homepage": "https://github.com/zeev-mindali/touchwand-jewish-sensors",
+  "bugs": "https://github.com/zeev-mindali/touchwand-jewish-sensors/issues",
+  "engines": {
+    "homebridge": ">0.4.53",
+    "node": ">=10.17.0"
+  },
+  "version": "2.0.0",
+  "description": "HomeBridge Plugin sensors for jewish events",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "hoobs-plugin",
+    "hebcal",
+    "jewish",
+    "calendar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeev-mindali/touchwand-jewish-sensors.git"
+  },
+  "author": {
+    "name": "zeev mindali",
+    "email": "mindalizeev@gmail.com",
+    "url": "https://touchwand.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "he-date": "^1.2.2",
+    "suncalc": "^1.8.0"
+  }
+}
